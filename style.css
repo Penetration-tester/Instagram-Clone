@@ -93,8 +93,8 @@
     background-clip: border-box;  
     position: absolute;
     top: 30px;
-    width: 990px;
-    height: 4000px;
+    width: 1010px;
+    height: 2800px;
 }
 .u1{
     border: 10px black;
@@ -700,13 +700,13 @@ width: 20px;
     top: 520px;
     left: 380px; 
 }
-.P10 img{
+.P10{
     position: absolute;
     top: 520px;
     left: 415px;
 }
 
-.p3{
+.pkg{
     border: 10px black;
     padding: 18px;
     background:white;
@@ -716,62 +716,4 @@ width: 20px;
     left: 163px;
     width: 415px;
     height: 650px;
-}
-
-.pb1{
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    transform: translate(-20%,-20%);
-    width: 55px;
-    height: 100px;
-}
-.pb1 img{
-width: 35px;
-height: 35px;
-border-radius: 50%;
-position: absolute;
-top: 45px;
-left: 15px;
-transform: translate(-20,-20);
-}
-.pb1 svg{
-    position: absolute;
-    top: 40px;
-    left: 10px;
-    fill:none;
-    stroke: #8a3ab8;
-    stroke-width: 3px;
-    stroke-dasharray: 2;
-    stroke-dashoffset: 0;
-    stroke-linecap: round;
-    animation:loading 4500ms ease-in-out infinite alternate;
-}
-@keyframes loading{
-    100%{
-        stroke: #cd476b;
-        stroke-dasharray: 10;
-        transform:rotate(250deg);
-    }
-}
-.pb2{
-    font-family:Gadugi;
-    font-weight: 900;
-    position: absolute;
-    top: 20px;
-    left: 55px;
-}
-.pb3 img{
-    position: absolute;
-    top: 20px;
-    left: 415px;
-    width: 20px;
-}
-
-.pb4 img{
-    position: absolute;
-    top: 60px;
-    left: 0;
-    height: 450px;
-    width: 450px; 
 }
